@@ -2,7 +2,7 @@
 @import "componentes/headers";
 
 main {
-    min-height: 100vh;
+    min-height: 100%;
     background-image: url("/assets/img/Cover.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -13,16 +13,17 @@ main {
         display: flex;
         flex-direction: column;
         h1 {
+            text-align: center;
             color: white;
-            font-size: 60px;
+            font-size: 55px;
             letter-spacing: 6px;
-            font-family: monospace;
+            font-family: $fuente1;
             margin-top: 150px;
             margin-bottom: 150px;
         }
         button {
             font-size: 20px;
-            font-weight: bold;
+            font-weight: 700;
             padding: 10px 15px;
             background-color: $green;
             margin: 0 auto;

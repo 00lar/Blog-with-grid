@@ -6,6 +6,7 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
+  font-family: "Roboto mono", monospace;
 }
 
 a {
@@ -76,12 +77,13 @@ header nav .profile-link {
   margin-right: 50px;
 }
 header nav .profile-link a {
+  font-family: "Roboto mono", monospace;
   color: black;
   border-bottom: 1px solid black;
 }
 
 main {
-  min-height: 100vh;
+  min-height: 100%;
   background-image: url("/assets/img/Cover.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -103,16 +105,17 @@ main .hero-container {
           flex-direction: column;
 }
 main .hero-container h1 {
+  text-align: center;
   color: white;
-  font-size: 60px;
+  font-size: 55px;
   letter-spacing: 6px;
-  font-family: monospace;
+  font-family: "Roboto mono", monospace;
   margin-top: 150px;
   margin-bottom: 150px;
 }
 main .hero-container button {
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 700;
   padding: 10px 15px;
   background-color: #47cfac;
   margin: 0 auto;
