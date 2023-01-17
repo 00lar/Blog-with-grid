@@ -1,11 +1,12 @@
 @import "../componentes/reset";
 @import "../componentes/headers";
 
-article {
-    background-color: gray;
-    min-height: 400px;
-    padding: 20px;
-    .news-container {
+main {
+
+    .blogs-news-container{
+        background-color: gray;
+        min-height: 400px;
+        padding: 20px;
         display: grid;
         grid-template-columns: 450px 500px;
         grid-auto-rows: 1fr;

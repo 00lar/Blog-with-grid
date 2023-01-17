@@ -81,12 +81,10 @@ header nav .profile-link a {
   border-bottom: 1px solid black;
 }
 
-article {
+main .blogs-news-container {
   background-color: gray;
   min-height: 400px;
   padding: 20px;
-}
-article .news-container {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 450px 60px 500px;
@@ -99,10 +97,10 @@ article .news-container {
      -moz-column-gap: 60px;
           column-gap: 60px;
 }
-article .news-container .news-picture img {
+main .blogs-news-container .news-picture img {
   width: 100%;
 }
-article .news-container .news-description {
+main .blogs-news-container .news-description {
   -ms-flex-item-align: start;
       align-self: flex-start;
 }
