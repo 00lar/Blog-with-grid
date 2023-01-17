@@ -1,0 +1,23 @@
+@import "../componentes/reset";
+@import "../componentes/headers";
+
+article {
+    background-color: gray;
+    min-height: 400px;
+    padding: 20px;
+    .news-container {
+        display: grid;
+        grid-template-columns: 450px 500px;
+        grid-auto-rows: 1fr;
+        justify-content: center;
+        column-gap: 60px;
+        .news-picture {
+            img {
+                width: 100%;
+            }
+        }
+        .news-description {
+            align-self: flex-start;
+        }
+    }
+}

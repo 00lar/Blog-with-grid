@@ -7,7 +7,7 @@ header {
         width: 100%;
         min-height: 50px;
         display: grid;
-        background-color: $green;
+        background-color:$green;
         .icons {
             max-width: 300px;
             height: auto;
@@ -39,7 +39,6 @@ header {
             justify-content: flex-end;
             margin-right: 50px;
             a {
-                font-family: $fuente1;
                 color: black;
                 border-bottom: 1px solid black;
             }
