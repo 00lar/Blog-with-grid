@@ -1,0 +1,25 @@
+header {
+    max-width: 100%;
+    min-height: 140px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    .header-icons-container {
+        width: 100%;
+        min-height: 50px;
+        display: grid;
+        background-color: $green;
+        .icons {
+            max-width: 300px;
+            height: auto;
+            display: flex;
+            justify-items: flex-end;
+            align-items: center;
+            justify-content: space-between;
+            justify-self: end;
+            margin-right: 50px;
+            span {
+                color: white;
+            }
+        }
+    }
+}
