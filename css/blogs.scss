@@ -10,10 +10,10 @@ main {
             display: grid;
             grid-template-columns: 2fr 1fr;
             grid-template-rows: 2fr;
-            .blogs-news-img-container {
+            .blogs-news-img--container {
                 grid-column: 1;
                 img {
-
+                    width: 85%;
                 }
             }
         }
@@ -22,6 +22,15 @@ main {
             p {
                 margin-bottom: 35px;
             }
+        }
+    }
+
+    .blogs-posts-container {
+        padding: 0 50px 40px;
+        h3 {
+            border-bottom: 1px solid #cdd2da;
+            padding-bottom: 20px;
+            text-align: center;
         }
     }
 }
