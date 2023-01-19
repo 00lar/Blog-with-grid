@@ -1,11 +1,6 @@
 body {
   margin: 0;
   padding: 0;
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
   font-family: "Roboto mono", monospace;
 }
 
@@ -15,11 +10,12 @@ a {
   color: black;
 }
 
-.homebody {
+.home-body {
   top: 0;
   bottom: 0;
   right: 0;
   left: 0;
+  position: fixed;
   overflow: scroll;
 }
 
