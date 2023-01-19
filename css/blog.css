@@ -90,43 +90,31 @@ header nav .profile-link a {
   border-bottom: 1px solid black;
 }
 
-main {
-  min-height: 100%;
-  background-image: url("/assets/img/Cover.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-main .hero-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-main .hero-container h1 {
+footer {
+  width: 100%;
+  height: 80px;
+  background-color: #22272d;
+  border-top: 35px solid #47cfac;
   text-align: center;
-  color: white;
-  font-size: 55px;
-  letter-spacing: 6px;
-  font-family: "Roboto mono", monospace;
-  margin-top: 150px;
-  margin-bottom: 150px;
 }
-main .hero-container button {
-  font-size: 20px;
-  font-weight: 700;
-  padding: 10px 15px;
-  background-color: #47cfac;
-  margin: 0 auto;
-  border: 0;
-  cursor: pointer;
+footer p {
+  color: white;
+  margin-top: 30px;
+}
+
+main .blogpost-img-container {
+  padding: 0 50px 40px;
+}
+main .blogpost-img-container img {
+  width: 100%;
+}
+main .blogpost-main-container {
+  padding: 0;
+}
+main .blogpost-main-container h3 {
+  border-bottom: 1px solid #cdd2da;
+  padding-bottom: 20px;
+}
+main .blogpost-main-container h1 {
+  font-size: 35px;
 }
