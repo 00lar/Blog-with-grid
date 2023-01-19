@@ -1,0 +1,20 @@
+.contact-main-container {
+        width: 100%;
+        min-height: 250px;
+        background-color: #e6e9ed;
+        display: grid;
+        grid-template-columns: repeat(2, 300px);
+        justify-content: space-around;
+        img {
+            height: 90px;
+            margin-right: 10px;
+        }
+        .contact {
+            display: flex;
+            padding: 100px 0;
+            a {
+                border-bottom: 1px solid black;
+                padding-bottom: 5px;
+            }
+        }
+    }

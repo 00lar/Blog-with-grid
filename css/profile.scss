@@ -1,0 +1,38 @@
+@import "../componentes/reset";
+@import "../componentes/headers";
+@import "../componentes/footer";
+@import "../componentes/contactos";
+
+main {
+    .profile-main-container {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 2fr;
+        padding: 0 50px 40px;
+        background-color: #e6e9ed;
+        align-items: center;
+     .img-profile {
+        padding-top: 70px;
+        img {
+            width: 100%;
+        }
+     } 
+     .profile-info {
+        padding-left: 30px;
+     }  
+    }
+    .profile-main-proyects {
+        padding: 0 50px 40px;
+        h3 {
+            font-size: 20px;
+            text-align: center;
+            padding-bottom:  25px;
+            border-bottom: 1px solid #cdd2da;
+        }
+        .profile-list-proyects {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            column-gap: 20px;
+        }
+    }
+}
