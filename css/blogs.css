@@ -90,6 +90,18 @@ header nav .profile-link a {
   border-bottom: 1px solid black;
 }
 
+footer {
+  width: 100%;
+  height: 80px;
+  background-color: #22272d;
+  border-top: 35px solid #47cfac;
+  text-align: center;
+}
+footer p {
+  color: white;
+  margin-top: 30px;
+}
+
 main {
   display: -ms-grid;
   display: grid;
@@ -159,16 +171,4 @@ main .blogs-posts-container .post-container img {
   border: 1px solid white;
   color: white;
   background-color: #48CFAD;
-}
-
-footer {
-  width: 100%;
-  height: 80px;
-  background-color: #22272d;
-  border-top: 35px solid #47cfac;
-  text-align: center;
-}
-footer p {
-  color: white;
-  margin-top: 30px;
 }
