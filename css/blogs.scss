@@ -2,7 +2,7 @@
 @import "../componentes/headers";
 @import "../componentes/footer";
 
-main {
+.blogs-main {
     display: grid;
     .blogs-news-container {
         background-color: #e6e9ed;
@@ -10,20 +10,19 @@ main {
         .blogs-main-new {
             display: grid;
             grid-template-columns: 2fr 1fr;
-            grid-template-rows: 2fr;
+            grid-template-rows: 1fr;
             .blogs-news-img--container {
-                grid-column: 1;
                 img {
                     width: 85%;
                 }
             }
-        }
-        .blogs-news-info-container {
-            grid-column: 2;
-            p {
-                margin-bottom: 35px;
+            .blogs-news-info-container {
+                p {
+                    margin-bottom: 35px;
+                }
             }
         }
+
     }
 
     .blogs-posts-container {
@@ -62,7 +61,3 @@ main {
 	background-color: #48CFAD;
 }
 
-
-@media (max-width:900px){
-    
-}
