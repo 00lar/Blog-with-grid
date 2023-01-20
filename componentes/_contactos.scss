@@ -18,3 +18,12 @@
             }
         }
     }
+
+    @media (max-width:900px) {
+
+       .contact-main-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 180px;
+       }
+    }
+    
