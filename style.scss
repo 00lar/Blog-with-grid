@@ -32,3 +32,15 @@ main {
         }
     }
 }
+
+@media (max-width:900px) {
+    main {
+        .hero-container {
+            h1 {
+                font-size: 40px;
+                margin-bottom: 100px;
+            }
+            font-size: 30px;
+        }
+    }
+}
